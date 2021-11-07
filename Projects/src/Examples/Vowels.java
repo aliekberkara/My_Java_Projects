@@ -10,7 +10,7 @@ public class Vowels {
 		{
 			System.out.println(letter + ", Is A Thin Vowel.");
 		}
-		else if (bold.contains(letter) && letter.length() == 1) 
+		else if (bold.contains(letter) && letter.length() == 1)
 		{
 			System.out.println(letter + ", Is A Bold Vowel.");
 		}
