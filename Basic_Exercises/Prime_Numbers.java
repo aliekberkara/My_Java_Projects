@@ -1,22 +1,21 @@
 /*
 Prime Numbers Are Numbers That Have No Exact Divisors Except 1 And Itself.
 */
-
-package Examples;
+package Basic_Exercises;
 
 public class Prime_Numbers {
 
 	public static void main(String[] args) {
 		int number = 15;
 		boolean prime = true;
-		
-		if (number < 2) 
+
+		if (number < 2)
 		{
 			prime = false;
 		}
-		else 
+		else
 		{
-			for (int i = 2; i <= (number / 2); i++) 
+			for (int i = 2; i <= (number / 2); i++)
 			{
 				if (number % i == 0)
 				{
@@ -31,7 +30,7 @@ public class Prime_Numbers {
 				}
 			}
 		}
-		
+
 		if (prime == true)
 		{
 			System.out.println("This Number is a Prime Number.");

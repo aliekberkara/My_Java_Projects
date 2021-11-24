@@ -1,4 +1,4 @@
-package Examples;
+package Smart_Phone;
 
 public class Smart_Phone {
 	private String trademark;
@@ -6,13 +6,13 @@ public class Smart_Phone {
 	private String color;
 	private int memory;
 	private double speed;
-	
+
 	public Smart_Phone(String trademark, String model, String color, int memory, double speed) {
 		super();
 		this.trademark = trademark;
 		this.model = model;
 		this.color = color;
-		this.memory = memory; 
+		this.memory = memory;
 		this.speed = speed;
 	}
 	public  Smart_Phone() {

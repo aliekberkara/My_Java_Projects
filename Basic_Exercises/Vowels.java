@@ -1,4 +1,4 @@
-package Examples;
+package Basic_Exercises;
 
 public class Vowels {
 
